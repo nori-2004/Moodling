@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const createItem = async () => {
-        const newItem = await {
+        const newItem = {
             age: parseInt(localStorage.getItem('age')),
             caffeine_intake: parseFloat(localStorage.getItem('caffeineIntake')),
             exercise_time: parseFloat(localStorage.getItem('exerciseHours')),
