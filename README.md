@@ -99,16 +99,10 @@ Moodling/
 
 ```bash
 git clone https://github.com/your-username/Moodling.git
-cd Moodling
 ```
 
-### 2. Install Python Dependencies
 
-```bash
-pip install fastapi uvicorn google-generativeai python-dotenv pydantic
-```
-
-### 3. Set Up Your API Key
+### 2. Set Up Your API Key
 
 Create a file named **`.env`** inside the `main/` folder:
 
@@ -129,7 +123,7 @@ GEMINI_API_KEY=your_api_key_here
 > .env
 > ```
 
-### 4. Start the Backend Server
+### 3. Start the Backend Server
 
 ```bash
 cd main
@@ -140,7 +134,7 @@ The FastAPI server will start at **http://127.0.0.1:8000**.
 
 You can verify it's running by visiting **http://127.0.0.1:8000/docs** in your browser to see the auto-generated API docs.
 
-### 5. Open the Frontend
+### 4. Open the Frontend
 
 Open the homepage in your browser:
 
@@ -181,8 +175,6 @@ Predicts mood, productivity, and stress based on user input.
 ```
 
 Values are scored **1–10** (1 = lowest, 10 = highest).
-
----
 
 ---
 
